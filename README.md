@@ -4,9 +4,9 @@ Control the **Logitech G560** gaming speakers on Linux, with no G HUB and no Win
 
 ![G560 settings window: lights](docs/screenshots/settings-lights.png)
 
-| Equalizer | General |
-|---|---|
-| ![Equalizer page](docs/screenshots/settings-equalizer.png) | ![General page](docs/screenshots/settings-general.png) |
+| Equalizer | General | Top-bar |
+|---|---|---|
+| ![Equalizer page](docs/screenshots/settings-equalizer.png) | ![General page](docs/screenshots/settings-general.png) | ![Top-bar menu](docs/screenshots/top-bar-menu.png) |
 
 ## Features
 
