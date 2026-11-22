@@ -1,0 +1,22 @@
+.g560-slider-label { font-size: 0.9em; }
+.g560-slider-value { min-width: 2.5em; text-align: right; font-feature-settings: "tnum"; }
+.g560-swatches { spacing: 6px; padding: 2px 0; }
+.g560-swatch {
+  width: 20px; height: 20px; border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.g560-swatch:hover, .g560-swatch:focus { border: 2px solid -st-accent-color; }
+.g560-swatch-rows { spacing: 6px; }
+.g560-swatch-add {
+  background-color: rgba(255, 255, 255, 0.08);
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+}
+.g560-swatch-add-icon { icon-size: 12px; }
+.g560-picker { padding: 4px 0; background-color: rgba(255, 255, 255, 0.04); border-radius: 8px; }
+.g560-picker-row { spacing: 8px; }
+.g560-color-preview {
+  width: 28px; height: 28px; border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.g560-hex-entry { min-width: 7em; font-feature-settings: "tnum"; }
+.g560-apply { padding: 4px 12px; }

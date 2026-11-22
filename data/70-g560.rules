@@ -1,0 +1,3 @@
+# Logitech G560: let the logged-in user access the HID++ interface (only needed
+# if /dev/hidraw* for the G560 is not already accessible without root).
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="0a78", TAG+="uaccess"

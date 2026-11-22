@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+import os, sys
+sys.path.insert(0, os.environ.get("G560_LIB", os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "lib", "g560")))
+from g560d.service import main
+sys.exit(main())

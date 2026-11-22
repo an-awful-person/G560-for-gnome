@@ -1,0 +1,14 @@
+[Unit]
+Description=Logitech G560 speaker control service
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.g560.Daemon
+ExecStart=%h/.local/bin/g560d
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=graphical-session.target

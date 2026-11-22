@@ -1,0 +1,12 @@
+{
+  "uuid": "g560@an-awful-person.github.io",
+  "name": "G560 Speakers",
+  "description": "Control the Logitech G560: subwoofer level, LED lights and hardware EQ. Needs the g560d user service.",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "url": "https://github.com/an-awful-person/G560-for-gnome",
+  "version-name": "0.1.0"
+}
